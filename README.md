@@ -11,3 +11,5 @@
 
 #### TCP 채팅 프로그램
 - TCP 네트워킹을 이용해서 채팅 서버와 클라이언트 구현
+
+![채팅프로그램](https://raw.githubusercontent.com/Hsegunn/bigData_javadata/main/images/img01.png)
