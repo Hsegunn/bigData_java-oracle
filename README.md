@@ -14,10 +14,11 @@
 
 ![채팅프로그램](https://raw.githubusercontent.com/Hsegunn/bigData_javadata/main/images/img01.png)
 
-### [3일차](https://github.com/Hsegunn/bigData_javadata/tree/main/day03) 데이터 입출력 및 복습
+### [3일차](https://github.com/Hsegunn/bigData_javadata/tree/main/day03) 복습
 
 #### 다형성과 추상메서드
 - 다형성과 추상메서드 관련 예제 복습코딩
 
-#### 데이터 입력출력
-- 
+## [4일차](https://github.com/Hsegunn/bigData_javadata/tree/main/day04) 데이터 입출력
+
+- 데이터 입출력으로 값을 저장하고 읽어오기
