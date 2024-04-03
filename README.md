@@ -19,6 +19,24 @@
 #### 다형성과 추상메서드
 - 다형성과 추상메서드 관련 예제 복습코딩
 
-## [4일차](https://github.com/Hsegunn/bigData_javadata/tree/main/day04) 데이터 입출력
+### [4일차](https://github.com/Hsegunn/bigData_javadata/tree/main/day04) 데이터 입출력
 
 - 데이터 입출력으로 값을 저장하고 읽어오기
+- 데이터 입출력으로 로그인프로그램 만들기
+
+# bigData_Oracle
+[오라클](https://www.oracle.com/kr/)을 이용한 데이터베이스 학습
+
+### [5일차](https://github.com/Hsegunn/bigData_javadata/tree/main/day05) 오라클 시작하기
+
+- [오라클](https://www.oracle.com/kr/), [DBeaver](https://dbeaver.io/download/) 설치
+- 명령프롬프트로 새 사용자 생성 후 데이터베이스 생성
+
+- 사용자 생성
+![사용자 생성](https://raw.githubusercontent.com/Hsegunn/bigData_javadata/main/images/img02.png)
+
+- 데이터베이스 생성
+
+![데이터베이스 생성](https://raw.githubusercontent.com/Hsegunn/bigData_javadata/main/images/img03.png)
+
+- 테이블 생성, 삭제 등 데이터 정의 및 조작하기
