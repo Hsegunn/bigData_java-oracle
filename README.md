@@ -44,3 +44,7 @@
 ### [6일차](https://github.com/Hsegunn/bigData_javadata/tree/main/day05) 오라클을 이용한 데이터베이스 학습
 
 - select, where등을 이용한 데이터 조작
+
+### [7일차](https://github.com/Hsegunn/bigData_javadata/tree/main/day05) 오라클을 이용한 데이터베이스 학습
+
+- 오라클 내장함수를 이용한 데이터베이스 학습
