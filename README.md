@@ -40,3 +40,7 @@
 ![데이터베이스 생성](https://raw.githubusercontent.com/Hsegunn/bigData_javadata/main/images/img03.png)
 
 - 테이블 생성, 삭제 등 데이터 정의 및 조작하기
+
+### [6일차](https://github.com/Hsegunn/bigData_javadata/tree/main/day05) 오라클을 이용한 데이터베이스 학습
+
+- select, where등을 이용한 데이터 조작
