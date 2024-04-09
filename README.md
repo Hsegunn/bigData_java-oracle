@@ -52,3 +52,7 @@
 ### [8일차](https://github.com/Hsegunn/bigData_javadata/tree/main/day08) 오라클을 이용한 데이터베이스 학습
 
 - groupby, 서브쿼리, 다중함수, join을 이용한 데이터베이스 학습 
+
+### [9일차](https://github.com/Hsegunn/bigData_javadata/tree/main/day09) 오라클을 이용한 데이터베이스 학습
+
+- 시퀀스, 트랜잭션, Check 함수를 이용한 데이터베이스 학습 
