@@ -56,3 +56,7 @@
 ### [9일차](https://github.com/Hsegunn/bigData_javadata/tree/main/day09) 오라클을 이용한 데이터베이스 학습
 
 - 시퀀스, 트랜잭션, Check 함수를 이용한 데이터베이스 학습 
+
+### [10일차](https://github.com/Hsegunn/bigData_javadata/tree/main/day09) 오라클을 이용한 데이터베이스 학습
+
+- 이클립스와 오라클을 연동하여 이클립스에서 오라클 테이블 출력해보기

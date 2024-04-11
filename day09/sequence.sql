@@ -165,3 +165,32 @@ SELECT EMP.EMPNO, EMP.ENAME, NVL(COMM, 0) AS COMM,
 DEPT.DEPTNO, DEPT.DNAME, DEPT.LOC FROM EMP
 INNER JOIN DEPT ON EMP.DEPTNO = DEPT.DEPTNO
 WHERE (COMM = 0 OR COMM IS NULL) AND DEPT.LOC LIKE '%GO';
+
+--------------------------------------------------------------
+
+--1. EMP 테이블에서 입사일순으로 사원번호, 이름, 업무, 급여, 입사일자, 부서번호 조회
+SELECT EMPNO, ENAME, JOB, SAL, HIREDATE, DEPTNO FROM EMP
+ORDER BY HIREDATE; 
+
+--2. EMP 테이블에서 부서번호로 정렬한 후 급여가 많은 순으로 
+--사원번호, 성명, 업무, 부서번호, 급여조회
+SELECT EMPNO, ENAME, JOB, DEPTNO, SAL FROM EMP
+ORDER BY DEPTNO , SAL DESC;
+
+--3. EMP 테이블에서 모든 SALESMAN의 급여평균, 최고액, 최저액, 합계조회
+SELECT AVG(SAL) AS "급여평균", 
+MAX(SAL) AS "최고액", 
+MIN(SAL) AS "최저액", 
+SUM(SAL) AS "합계" 
+FROM EMP WHERE JOB = 'SALESMAN';
+
+--4. EMP 테이블에서 각 부서별로 인원수, 급여평균, 최저급여, 급여의 합을 구하여
+--급여의 합이 많은 순으로 출력
+SELECT DEPTNO,
+COUNT(DEPTNO) AS "인원 수",
+AVG(SAL) AS "급여평균", 
+MIN(SAL) AS "최저급여",
+SUM(SAL) AS "급여합계" 
+FROM EMP 
+GROUP BY DEPTNO 
+ORDER BY SUM(SAL) DESC;
